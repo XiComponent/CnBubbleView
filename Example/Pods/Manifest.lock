@@ -1,5 +1,5 @@
 PODS:
-  - CnKanni (0.1.0)
+  - CnKanni (0.1.1)
 
 DEPENDENCIES:
   - CnKanni (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CnKanni: 7c17e18dcd9795b8d973181b3bb95e38a9bbb358
+  CnKanni: 29b2f9347ac54f28db36d440d3ab1a39ee4bd821
 
 PODFILE CHECKSUM: af68b54ea0c8ca1c02798976ce39292624b13b60
 

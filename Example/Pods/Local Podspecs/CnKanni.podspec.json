@@ -1,9 +1,9 @@
 {
   "name": "CnKanni",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Everything is go go go.",
   "description": "Get more information from CC.",
-  "homepage": "https://github.com/tardyRain/MeSpecs",
+  "homepage": "https://github.com/XiComponent/CnBubbleView.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "tardyRain": "wxyter@163.com"
   },
   "source": {
-    "git": "https://github.com/tardyRain/MeSpecs.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/XiComponent/CnBubbleView.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

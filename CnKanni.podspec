@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CnKanni'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Everything is go go go.'
 
 # This description is used to generate tags and improve search results.
