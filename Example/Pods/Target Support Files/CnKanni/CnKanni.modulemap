@@ -1,0 +1,6 @@
+framework module CnKanni {
+  umbrella header "CnKanni-umbrella.h"
+
+  export *
+  module * { export * }
+}

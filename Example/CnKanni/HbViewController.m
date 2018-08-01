@@ -7,6 +7,7 @@
 //
 
 #import "HbViewController.h"
+#import <CnKanni/CnBubbleView.h>
 
 @interface HbViewController ()
 
@@ -18,6 +19,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor yellowColor];
+    
+    CnBubbleView *bubbleView = [[CnBubbleView alloc] initWithFrame:CGRectMake(20, 100, 100, 20)];
+    [bubbleView setBackgroundColor:[UIColor orangeColor]];
+    [bubbleView setText:@"显示这里" maxWidth:100.0];
+    [self.view addSubview:bubbleView];
 }
 
 - (void)didReceiveMemoryWarning
