@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CnKanni_Example' do
+  pod 'CnKanni', :path => '../'
+
+  target 'CnKanni_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
