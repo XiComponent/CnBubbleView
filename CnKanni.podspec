@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 Get more information from CC.
                        DESC
 
-  s.homepage         = 'https://github.com/tardyRain/MeSpecs'
+  s.homepage         = 'https://github.com/XiComponent/CnBubbleView.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tardyRain' => 'wxyter@163.com' }
-  s.source           = { :git => 'https://github.com/tardyRain/MeSpecs.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/XiComponent/CnBubbleView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/tardyRain'
 
   s.ios.deployment_target = '8.0'
