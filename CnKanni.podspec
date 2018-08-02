@@ -8,17 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CnKanni'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Everything is go go go.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
-Get more information from CC.
+                    Get more information from CC.
                        DESC
 
   s.homepage         = 'https://github.com/XiComponent/CnBubbleView.git'
@@ -39,4 +32,11 @@ Get more information from CC.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+
+  s.subspec 'JRUIHelper' do |cs|
+      cs.source_files = 'CnKanni/Classes/JRUIHelper/**/*'
+      cs.public_header_files = 'CnKanni/Classes/JRUIHelper/**/*.h'
+  end
+
 end

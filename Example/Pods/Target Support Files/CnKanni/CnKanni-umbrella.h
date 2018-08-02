@@ -11,6 +11,8 @@
 #endif
 
 #import "CnBubbleView.h"
+#import "JRUIHelper.h"
+#import "JRUIHelper.h"
 
 FOUNDATION_EXPORT double CnKanniVersionNumber;
 FOUNDATION_EXPORT const unsigned char CnKanniVersionString[];
