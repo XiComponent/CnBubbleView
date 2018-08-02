@@ -1,7 +1,9 @@
 PODS:
-  - CnKanni (0.1.2):
-    - CnKanni/JRUIHelper (= 0.1.2)
-  - CnKanni/JRUIHelper (0.1.2)
+  - CnKanni (0.1.3):
+    - CnKanni/CnBubbleView (= 0.1.3)
+    - CnKanni/JRUIHelper (= 0.1.3)
+  - CnKanni/CnBubbleView (0.1.3)
+  - CnKanni/JRUIHelper (0.1.3)
 
 DEPENDENCIES:
   - CnKanni (from `../`)
@@ -11,7 +13,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CnKanni: 536a00b28e283dd5dab0fccbce8297ba3b8294ad
+  CnKanni: 213a7b1b636d824fce512e08d540c6ac8ab1c539
 
 PODFILE CHECKSUM: af68b54ea0c8ca1c02798976ce39292624b13b60
 

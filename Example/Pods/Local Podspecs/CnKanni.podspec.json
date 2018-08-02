@@ -1,9 +1,9 @@
 {
   "name": "CnKanni",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "Everything is go go go.",
   "description": "Get more information from CC.",
-  "homepage": "https://github.com/XiComponent/CnBubbleView.git",
+  "homepage": "https://github.com/XiComponent/CnKanni.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,14 +12,19 @@
     "tardyRain": "wxyter@163.com"
   },
   "source": {
-    "git": "https://github.com/XiComponent/CnBubbleView.git",
-    "tag": "0.1.2"
+    "git": "https://github.com/XiComponent/CnKanni.git",
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "CnKanni/Classes/**/*",
   "subspecs": [
+    {
+      "name": "CnBubbleView",
+      "source_files": "CnKanni/Classes/CnBubbleView/**/*",
+      "public_header_files": "CnKanni/Classes/CnBubbleView/**/*.h"
+    },
     {
       "name": "JRUIHelper",
       "source_files": "CnKanni/Classes/JRUIHelper/**/*",

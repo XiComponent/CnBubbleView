@@ -8,17 +8,17 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CnKanni'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Everything is go go go.'
   s.description      = <<-DESC
                     Get more information from CC.
                        DESC
 
-  s.homepage         = 'https://github.com/XiComponent/CnBubbleView.git'
+  s.homepage         = 'https://github.com/XiComponent/CnKanni.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tardyRain' => 'wxyter@163.com' }
-  s.source           = { :git => 'https://github.com/XiComponent/CnBubbleView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/XiComponent/CnKanni.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/tardyRain'
 
   s.ios.deployment_target = '8.0'
@@ -33,6 +33,10 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
+  s.subspec 'CnBubbleView' do |cs|
+      cs.source_files = 'CnKanni/Classes/CnBubbleView/**/*'
+      cs.public_header_files = 'CnKanni/Classes/CnBubbleView/**/*.h'
+  end
 
   s.subspec 'JRUIHelper' do |cs|
       cs.source_files = 'CnKanni/Classes/JRUIHelper/**/*'

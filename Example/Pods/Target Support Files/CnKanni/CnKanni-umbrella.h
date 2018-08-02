@@ -12,6 +12,7 @@
 
 #import "CnBubbleView.h"
 #import "JRUIHelper.h"
+#import "CnBubbleView.h"
 #import "JRUIHelper.h"
 
 FOUNDATION_EXPORT double CnKanniVersionNumber;
