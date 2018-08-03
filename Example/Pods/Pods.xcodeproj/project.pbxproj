@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15B2C726B5FA423985A07B06B741D862 /* CnBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C8369156C6B38EC3EACF29D769C312 /* CnBubbleView.m */; };
 		1B058B40541F682D7EB4D15D54C8D1A0 /* Pods-CnKanni_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3493174377CF82CAEEF9EB974BFE4EC /* Pods-CnKanni_Tests-dummy.m */; };
 		23443819B0E0A4B2DFB2CEF04BB210A2 /* Pods-CnKanni_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BD66728F4320331487DA375B56F5E2 /* Pods-CnKanni_Example-dummy.m */; };
 		23E5844428B93C8FE9E33662DBCDF9B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		25BAA1C862006348A9D56D53A9583CBE /* CnBubbleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 505BB789F69728FC20AE64FA3AFEDC21 /* CnBubbleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26AC1C367E7F192E50117A88CFC7EE59 /* CnKanni-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B97E83F6191AF5B5C1982A625FD00441 /* CnKanni-dummy.m */; };
-		2CC62460426FC48E93D2C6A876A0F01F /* JRUIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3505986088870F63E6722B2DCBE041 /* JRUIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		343A816AA3B65E4EF800EA1C789C7126 /* CnKanni-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF93986EA9BFB5C233DB1F6FC1D5C0A /* CnKanni-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38F7001287EC43149B9C194E806A960D /* CnKanni.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D5958162D2F60AC12BBF90A8D3CF96 /* CnKanni.xcassets */; };
 		5D4A23CB8A0D9E7BCCA322C0EE55EF53 /* Pods-CnKanni_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F343C070F6D9398918188F3FE3BE700 /* Pods-CnKanni_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DCA6FA02B63B851D0A4BE758074CEF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		604E8E025CDC264AF336A4D834A59D9D /* CnKanni-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2841D4C0E82D37F999653DD79B841115 /* CnKanni-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7811BF0D6F0F5809108456A7791FDD7A /* CnBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC4913DA0F510B525E78C0F43018F2 /* CnBubbleView.m */; };
-		85121F410809AC107BEAC484B421D85E /* JRUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F346A5CF04B91982D471774045360537 /* JRUIHelper.m */; };
+		6B1B8C7F1276DC6A410A279F483EA667 /* JRUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE1612C62FDA7AEDE6B0A9D8DAECFB4 /* JRUIHelper.m */; };
+		7CAD08C6F861DD5A1DD6810494708964 /* CnKanni-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B94D38A0C214C102840B2E6C256BCE /* CnKanni-dummy.m */; };
+		967DD958D91C120F46BF77A85CA890C8 /* CnKanni.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5A992092FAA358A4573C9553414A116 /* CnKanni.bundle */; };
+		9E0BD0B1770A1DE91357E7080F8B2305 /* JRUIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB3667F602404753FD46BE1D4CDF69B /* JRUIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B9542463EEAA4A19B78F3BB40B1303 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C12C726CBDCDA61A725BCFBAEC60AE9A /* CnBubbleView.h in Headers */ = {isa = PBXBuildFile; fileRef = C8608DA1ACC260D445BCB35473E48366 /* CnBubbleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7B92156EF79AE94081D743FEF723B13 /* Pods-CnKanni_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0859224E3A91927D737AC9A54A7A3D05 /* Pods-CnKanni_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE03AD748CAFE86B6DA98F9A20417261 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -27,50 +29,68 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0BE0A9CD9F7768346E5F1283B7D48B58;
+			remoteGlobalIDString = 342A09A7FEE3AE79AEAEB5B82306BB72;
 			remoteInfo = CnKanni;
+		};
+		DE4C7F8845F0ABEA017F869B7B63964E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DAAFD0278352A75287F930D872120CC;
+			remoteInfo = "CnKanni-CnKanni";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0859224E3A91927D737AC9A54A7A3D05 /* Pods-CnKanni_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CnKanni_Example-umbrella.h"; sourceTree = "<group>"; };
 		0CAE8769317B5B73DC915F78C518D8BA /* Pods-CnKanni_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CnKanni_Tests.modulemap"; sourceTree = "<group>"; };
+		0DB3667F602404753FD46BE1D4CDF69B /* JRUIHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRUIHelper.h; sourceTree = "<group>"; };
+		162B51FCBD89B6D92460E2A67B84E810 /* CnKanni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CnKanni.framework; path = CnKanni.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		181B1CBB64E5BE526155C8D903C6B6A0 /* Pods-CnKanni_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CnKanni_Example.modulemap"; sourceTree = "<group>"; };
-		1F3505986088870F63E6722B2DCBE041 /* JRUIHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRUIHelper.h; sourceTree = "<group>"; };
-		255A84AA73391ADE6E994F25CC3C0330 /* CnKanni.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CnKanni.modulemap; sourceTree = "<group>"; };
+		1BF93986EA9BFB5C233DB1F6FC1D5C0A /* CnKanni-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CnKanni-umbrella.h"; sourceTree = "<group>"; };
 		27465F6EB2BA1D1E0332E65F8772D292 /* Pods-CnKanni_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CnKanni_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2841D4C0E82D37F999653DD79B841115 /* CnKanni-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CnKanni-umbrella.h"; sourceTree = "<group>"; };
-		3CCC4913DA0F510B525E78C0F43018F2 /* CnBubbleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CnBubbleView.m; sourceTree = "<group>"; };
-		505BB789F69728FC20AE64FA3AFEDC21 /* CnBubbleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CnBubbleView.h; sourceTree = "<group>"; };
+		2B9DA107EE36C73701C5F1E4AD65DF25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		400DBB22C80764DF1CB5AF29272271F5 /* Pods_CnKanni_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CnKanni_Example.framework; path = "Pods-CnKanni_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53103500F057422F3431A5B73A2AB885 /* Pods-CnKanni_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CnKanni_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5472170AFCBBFF14C90AB14FFEB4A7C3 /* Pods-CnKanni_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CnKanni_Example-resources.sh"; sourceTree = "<group>"; };
 		5DEA77344DAB13A3CBA229EC23BC3056 /* Pods-CnKanni_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CnKanni_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5E0487F55843ABB669C4B841025126ED /* CnKanni.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CnKanni.xcconfig; sourceTree = "<group>"; };
+		615C2FCB18C6ECAD911A2CFD4488FF8E /* Pods_CnKanni_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CnKanni_Tests.framework; path = "Pods-CnKanni_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D9ACE17E8444C0B96D5433161624E5 /* Pods-CnKanni_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CnKanni_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7A2FF60AC02AEA8DCC378D255C60FDBE /* Pods-CnKanni_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CnKanni_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7F5DE509D7708F372C692A027F3AFB72 /* Pods-CnKanni_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CnKanni_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		83D5958162D2F60AC12BBF90A8D3CF96 /* CnKanni.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CnKanni.xcassets; path = CnKanni/Assets/CnKanni.xcassets; sourceTree = "<group>"; };
 		8F343C070F6D9398918188F3FE3BE700 /* Pods-CnKanni_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CnKanni_Tests-umbrella.h"; sourceTree = "<group>"; };
 		914F44DBADEE6BB6DF10DF75D24463D9 /* Pods-CnKanni_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CnKanni_Example-frameworks.sh"; sourceTree = "<group>"; };
+		92441DDD0DA417EC571A4ED3ED66BF07 /* ResourceBundle-CnKanni-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CnKanni-Info.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3493174377CF82CAEEF9EB974BFE4EC /* Pods-CnKanni_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CnKanni_Tests-dummy.m"; sourceTree = "<group>"; };
-		A5036B1C98D36C5ACAD15AEA0A84DBB5 /* CnKanni-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CnKanni-prefix.pch"; sourceTree = "<group>"; };
+		A4B94D38A0C214C102840B2E6C256BCE /* CnKanni-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CnKanni-dummy.m"; sourceTree = "<group>"; };
 		B1B8FA2B5CF69F4886642F4B08D893B8 /* Pods-CnKanni_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CnKanni_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B97E83F6191AF5B5C1982A625FD00441 /* CnKanni-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CnKanni-dummy.m"; sourceTree = "<group>"; };
 		BE8A09B8C9456301E28C6816109E60C7 /* Pods-CnKanni_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CnKanni_Tests-resources.sh"; sourceTree = "<group>"; };
-		BF14A4ADC43FE505F95DC655A2566925 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C02B388FBE5EA2B541552082CBC60372 /* Pods-CnKanni_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CnKanni_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		CA2E594C804BFD5F6400A8832C416E95 /* Pods_CnKanni_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CnKanni_Tests.framework; path = "Pods-CnKanni_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D50E436FCFD83D4CE76BC07E5B3CD40C /* Pods_CnKanni_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CnKanni_Example.framework; path = "Pods-CnKanni_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8608DA1ACC260D445BCB35473E48366 /* CnBubbleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CnBubbleView.h; sourceTree = "<group>"; };
 		D549B12D59CEB3497D53544652F484C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88A144030CD8A0A26573512242FD8B7 /* CnKanni.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CnKanni.xcconfig; sourceTree = "<group>"; };
+		DFE1612C62FDA7AEDE6B0A9D8DAECFB4 /* JRUIHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRUIHelper.m; sourceTree = "<group>"; };
 		E7BD66728F4320331487DA375B56F5E2 /* Pods-CnKanni_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CnKanni_Example-dummy.m"; sourceTree = "<group>"; };
-		E8C7858DE9EAA309D0D05BAC5D45B3B9 /* CnKanni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CnKanni.framework; path = CnKanni.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEAA164FA0F3B16CEBAC3A78F4C7D5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB22929F402A86BE03B192D52D7BEE05 /* CnKanni-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CnKanni-prefix.pch"; sourceTree = "<group>"; };
 		EC2EDADA1146AB7F85B165083CDAAB13 /* Pods-CnKanni_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CnKanni_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F346A5CF04B91982D471774045360537 /* JRUIHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRUIHelper.m; sourceTree = "<group>"; };
+		F1C8369156C6B38EC3EACF29D769C312 /* CnBubbleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CnBubbleView.m; sourceTree = "<group>"; };
+		F5A992092FAA358A4573C9553414A116 /* CnKanni.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CnKanni.bundle; path = CnKanni.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECF4C5286E842621C0A00650C9B0643 /* CnKanni.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CnKanni.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		05E6F6602F50F5B55205CBC95959CC7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B9542463EEAA4A19B78F3BB40B1303 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		119003EEB663A85188553C4F36E73F9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -79,11 +99,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A75CAC767263A99FDB1CF0CD5060A310 /* Frameworks */ = {
+		77D91C201E05C41F666F80B39951AA17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DCA6FA02B63B851D0A4BE758074CEF8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,67 +117,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2FF507637E1D97B9812EDEF5F47B8AB0 /* Products */ = {
+		2F3EC4FFFE431E416616E98C23211485 /* CnBubbleView */ = {
 			isa = PBXGroup;
 			children = (
-				E8C7858DE9EAA309D0D05BAC5D45B3B9 /* CnKanni.framework */,
-				D50E436FCFD83D4CE76BC07E5B3CD40C /* Pods_CnKanni_Example.framework */,
-				CA2E594C804BFD5F6400A8832C416E95 /* Pods_CnKanni_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		469B11D4E870E8B86A8558E25F20D6AD /* CnBubbleView */ = {
-			isa = PBXGroup;
-			children = (
-				505BB789F69728FC20AE64FA3AFEDC21 /* CnBubbleView.h */,
-				3CCC4913DA0F510B525E78C0F43018F2 /* CnBubbleView.m */,
+				C8608DA1ACC260D445BCB35473E48366 /* CnBubbleView.h */,
+				F1C8369156C6B38EC3EACF29D769C312 /* CnBubbleView.m */,
 			);
 			name = CnBubbleView;
 			path = CnKanni/Classes/CnBubbleView;
 			sourceTree = "<group>";
 		};
-		4E1EFCEDF449AA0F52C342D20A1FFBAB /* JRUIHelper */ = {
+		5657CBD9AB20CD27AC0D4D0D656B66BB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F3505986088870F63E6722B2DCBE041 /* JRUIHelper.h */,
-				F346A5CF04B91982D471774045360537 /* JRUIHelper.m */,
-			);
-			name = JRUIHelper;
-			path = CnKanni/Classes/JRUIHelper;
-			sourceTree = "<group>";
-		};
-		5663ED41B9159AFEF470E54C2EEBE13E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				255A84AA73391ADE6E994F25CC3C0330 /* CnKanni.modulemap */,
-				5E0487F55843ABB669C4B841025126ED /* CnKanni.xcconfig */,
-				B97E83F6191AF5B5C1982A625FD00441 /* CnKanni-dummy.m */,
-				A5036B1C98D36C5ACAD15AEA0A84DBB5 /* CnKanni-prefix.pch */,
-				2841D4C0E82D37F999653DD79B841115 /* CnKanni-umbrella.h */,
-				BF14A4ADC43FE505F95DC655A2566925 /* Info.plist */,
+				FECF4C5286E842621C0A00650C9B0643 /* CnKanni.modulemap */,
+				D88A144030CD8A0A26573512242FD8B7 /* CnKanni.xcconfig */,
+				A4B94D38A0C214C102840B2E6C256BCE /* CnKanni-dummy.m */,
+				EB22929F402A86BE03B192D52D7BEE05 /* CnKanni-prefix.pch */,
+				1BF93986EA9BFB5C233DB1F6FC1D5C0A /* CnKanni-umbrella.h */,
+				2B9DA107EE36C73701C5F1E4AD65DF25 /* Info.plist */,
+				92441DDD0DA417EC571A4ED3ED66BF07 /* ResourceBundle-CnKanni-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CnKanni";
+			sourceTree = "<group>";
+		};
+		5A6B149F2FE1CA12EC4C986776501454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5A992092FAA358A4573C9553414A116 /* CnKanni.bundle */,
+				162B51FCBD89B6D92460E2A67B84E810 /* CnKanni.framework */,
+				400DBB22C80764DF1CB5AF29272271F5 /* Pods_CnKanni_Example.framework */,
+				615C2FCB18C6ECAD911A2CFD4488FF8E /* Pods_CnKanni_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B1E58210EC4CA69B46807F226C46CEB /* CnKanni */ = {
+			isa = PBXGroup;
+			children = (
+				2F3EC4FFFE431E416616E98C23211485 /* CnBubbleView */,
+				D5ABBEC81920FC42C796DE75124F3B18 /* JRUIHelper */,
+				F69449543ED4F92531B1CC1D747EE7C5 /* Resources */,
+				5657CBD9AB20CD27AC0D4D0D656B66BB /* Support Files */,
+			);
+			name = CnKanni;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6F083D2E27B7F023D7BEC322A8EABF09 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B1E58210EC4CA69B46807F226C46CEB /* CnKanni */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8430D57F9CDC29AE336C2DC02A54D786 /* Development Pods */,
+				6F083D2E27B7F023D7BEC322A8EABF09 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2FF507637E1D97B9812EDEF5F47B8AB0 /* Products */,
+				5A6B149F2FE1CA12EC4C986776501454 /* Products */,
 				BC4464C2390BA00B088EE56DA97FB0CE /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8430D57F9CDC29AE336C2DC02A54D786 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BCE60D5AB35312CB82538AA99DFA10ED /* CnKanni */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -176,17 +199,6 @@
 				C7938BDD683EF54B298E966D417676F7 /* Pods-CnKanni_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BCE60D5AB35312CB82538AA99DFA10ED /* CnKanni */ = {
-			isa = PBXGroup;
-			children = (
-				469B11D4E870E8B86A8558E25F20D6AD /* CnBubbleView */,
-				4E1EFCEDF449AA0F52C342D20A1FFBAB /* JRUIHelper */,
-				5663ED41B9159AFEF470E54C2EEBE13E /* Support Files */,
-			);
-			name = CnKanni;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		C7938BDD683EF54B298E966D417676F7 /* Pods-CnKanni_Tests */ = {
@@ -215,6 +227,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		D5ABBEC81920FC42C796DE75124F3B18 /* JRUIHelper */ = {
+			isa = PBXGroup;
+			children = (
+				0DB3667F602404753FD46BE1D4CDF69B /* JRUIHelper.h */,
+				DFE1612C62FDA7AEDE6B0A9D8DAECFB4 /* JRUIHelper.m */,
+			);
+			name = JRUIHelper;
+			path = CnKanni/Classes/JRUIHelper;
+			sourceTree = "<group>";
+		};
 		EDC367FF226E880CC2973D08AD43EA33 /* Pods-CnKanni_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,16 +255,24 @@
 			path = "Target Support Files/Pods-CnKanni_Example";
 			sourceTree = "<group>";
 		};
+		F69449543ED4F92531B1CC1D747EE7C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83D5958162D2F60AC12BBF90A8D3CF96 /* CnKanni.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		329064CC643175955B65F2CA167EB4AD /* Headers */ = {
+		2097165545F009E23C2F25BD04D4B439 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25BAA1C862006348A9D56D53A9583CBE /* CnBubbleView.h in Headers */,
-				604E8E025CDC264AF336A4D834A59D9D /* CnKanni-umbrella.h in Headers */,
-				2CC62460426FC48E93D2C6A876A0F01F /* JRUIHelper.h in Headers */,
+				C12C726CBDCDA61A725BCFBAEC60AE9A /* CnBubbleView.h in Headers */,
+				343A816AA3B65E4EF800EA1C789C7126 /* CnKanni-umbrella.h in Headers */,
+				9E0BD0B1770A1DE91357E7080F8B2305 /* JRUIHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,23 +295,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0BE0A9CD9F7768346E5F1283B7D48B58 /* CnKanni */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 57ADB12B6038E7F942F8C1EBB777530F /* Build configuration list for PBXNativeTarget "CnKanni" */;
-			buildPhases = (
-				C97ABC6E71C5E862BE5F0A42DA0C8B49 /* Sources */,
-				A75CAC767263A99FDB1CF0CD5060A310 /* Frameworks */,
-				329064CC643175955B65F2CA167EB4AD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CnKanni;
-			productName = CnKanni;
-			productReference = E8C7858DE9EAA309D0D05BAC5D45B3B9 /* CnKanni.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		0F54F3EA087B34AEF203B5598F62E050 /* Pods-CnKanni_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 327D75EF3D561C557CAFC68E3D19BD2E /* Build configuration list for PBXNativeTarget "Pods-CnKanni_Tests" */;
@@ -296,7 +309,7 @@
 			);
 			name = "Pods-CnKanni_Tests";
 			productName = "Pods-CnKanni_Tests";
-			productReference = CA2E594C804BFD5F6400A8832C416E95 /* Pods_CnKanni_Tests.framework */;
+			productReference = 615C2FCB18C6ECAD911A2CFD4488FF8E /* Pods_CnKanni_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1937DCCCA01EF8889D1DBFB347E78659 /* Pods-CnKanni_Example */ = {
@@ -314,8 +327,44 @@
 			);
 			name = "Pods-CnKanni_Example";
 			productName = "Pods-CnKanni_Example";
-			productReference = D50E436FCFD83D4CE76BC07E5B3CD40C /* Pods_CnKanni_Example.framework */;
+			productReference = 400DBB22C80764DF1CB5AF29272271F5 /* Pods_CnKanni_Example.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		342A09A7FEE3AE79AEAEB5B82306BB72 /* CnKanni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019253464D848DED6A0417A0BFF3AE1F /* Build configuration list for PBXNativeTarget "CnKanni" */;
+			buildPhases = (
+				1092B4757DC9A87949BF0F8B5506F011 /* Sources */,
+				05E6F6602F50F5B55205CBC95959CC7C /* Frameworks */,
+				92FE92C420189395D10A266BB3CF2814 /* Resources */,
+				2097165545F009E23C2F25BD04D4B439 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E5039266988F01764BCC5497BA8B8F0 /* PBXTargetDependency */,
+			);
+			name = CnKanni;
+			productName = CnKanni;
+			productReference = 162B51FCBD89B6D92460E2A67B84E810 /* CnKanni.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DAAFD0278352A75287F930D872120CC /* CnKanni-CnKanni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456EE494BC051752095A19C2A2882124 /* Build configuration list for PBXNativeTarget "CnKanni-CnKanni" */;
+			buildPhases = (
+				A162737E016C3D26D755B63E142A39B4 /* Sources */,
+				77D91C201E05C41F666F80B39951AA17 /* Frameworks */,
+				5833DE2DDE5D077BA308A80FBF5E053A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CnKanni-CnKanni";
+			productName = "CnKanni-CnKanni";
+			productReference = F5A992092FAA358A4573C9553414A116 /* CnKanni.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -334,18 +383,48 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2FF507637E1D97B9812EDEF5F47B8AB0 /* Products */;
+			productRefGroup = 5A6B149F2FE1CA12EC4C986776501454 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BE0A9CD9F7768346E5F1283B7D48B58 /* CnKanni */,
+				342A09A7FEE3AE79AEAEB5B82306BB72 /* CnKanni */,
+				7DAAFD0278352A75287F930D872120CC /* CnKanni-CnKanni */,
 				1937DCCCA01EF8889D1DBFB347E78659 /* Pods-CnKanni_Example */,
 				0F54F3EA087B34AEF203B5598F62E050 /* Pods-CnKanni_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		5833DE2DDE5D077BA308A80FBF5E053A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F7001287EC43149B9C194E806A960D /* CnKanni.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FE92C420189395D10A266BB3CF2814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967DD958D91C120F46BF77A85CA890C8 /* CnKanni.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		1092B4757DC9A87949BF0F8B5506F011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B2C726B5FA423985A07B06B741D862 /* CnBubbleView.m in Sources */,
+				7CAD08C6F861DD5A1DD6810494708964 /* CnKanni-dummy.m in Sources */,
+				6B1B8C7F1276DC6A410A279F483EA667 /* JRUIHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5333955CCF3FE3FBC91E6E62C43D7722 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,13 +433,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C97ABC6E71C5E862BE5F0A42DA0C8B49 /* Sources */ = {
+		A162737E016C3D26D755B63E142A39B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7811BF0D6F0F5809108456A7791FDD7A /* CnBubbleView.m in Sources */,
-				26AC1C367E7F192E50117A88CFC7EE59 /* CnKanni-dummy.m in Sources */,
-				85121F410809AC107BEAC484B421D85E /* JRUIHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,8 +454,14 @@
 		12ABFC7B98A94B39E12270794DD6DD8F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CnKanni;
-			target = 0BE0A9CD9F7768346E5F1283B7D48B58 /* CnKanni */;
+			target = 342A09A7FEE3AE79AEAEB5B82306BB72 /* CnKanni */;
 			targetProxy = 09D98A5967E5C9832FEF328DBD7D4BA8 /* PBXContainerItemProxy */;
+		};
+		4E5039266988F01764BCC5497BA8B8F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CnKanni-CnKanni";
+			target = 7DAAFD0278352A75287F930D872120CC /* CnKanni-CnKanni */;
+			targetProxy = DE4C7F8845F0ABEA017F869B7B63964E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -417,9 +499,9 @@
 			};
 			name = Release;
 		};
-		114CC46BF93F8286735E619925F416D6 /* Debug */ = {
+		1C66EB8965B3ECB564C67FC52497775D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E0487F55843ABB669C4B841025126ED /* CnKanni.xcconfig */;
+			baseConfigurationReference = D88A144030CD8A0A26573512242FD8B7 /* CnKanni.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -441,10 +523,11 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		315F878D20504D5A3EFDB12D8107E773 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -478,6 +561,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		540494BE2644330401E5A7BDD17ABD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88A144030CD8A0A26573512242FD8B7 /* CnKanni.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CnKanni/CnKanni-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CnKanni/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CnKanni/CnKanni.modulemap";
+				PRODUCT_NAME = CnKanni;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		64AECBEF5E9BFD117CFFF61CF2B0FB09 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -543,33 +655,35 @@
 			};
 			name = Debug;
 		};
-		99555A9E8F1DF848D7BDCAA2644F713E /* Release */ = {
+		A677B370B44CD0D760502851A139FC4D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E0487F55843ABB669C4B841025126ED /* CnKanni.xcconfig */;
+			baseConfigurationReference = D88A144030CD8A0A26573512242FD8B7 /* CnKanni.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CnKanni/CnKanni-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CnKanni/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CnKanni";
+				INFOPLIST_FILE = "Target Support Files/CnKanni/ResourceBundle-CnKanni-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CnKanni/CnKanni.modulemap";
 				PRODUCT_NAME = CnKanni;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A7A4BB80394D140EE51A65F458B67D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88A144030CD8A0A26573512242FD8B7 /* CnKanni.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CnKanni";
+				INFOPLIST_FILE = "Target Support Files/CnKanni/ResourceBundle-CnKanni-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CnKanni;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -697,6 +811,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		019253464D848DED6A0417A0BFF3AE1F /* Build configuration list for PBXNativeTarget "CnKanni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540494BE2644330401E5A7BDD17ABD30 /* Debug */,
+				1C66EB8965B3ECB564C67FC52497775D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		22D45A5A3506E5D30AD6AFF55DC5DCEA /* Build configuration list for PBXNativeTarget "Pods-CnKanni_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -724,11 +847,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57ADB12B6038E7F942F8C1EBB777530F /* Build configuration list for PBXNativeTarget "CnKanni" */ = {
+		456EE494BC051752095A19C2A2882124 /* Build configuration list for PBXNativeTarget "CnKanni-CnKanni" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				114CC46BF93F8286735E619925F416D6 /* Debug */,
-				99555A9E8F1DF848D7BDCAA2644F713E /* Release */,
+				A677B370B44CD0D760502851A139FC4D /* Debug */,
+				A7A4BB80394D140EE51A65F458B67D59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

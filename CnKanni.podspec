@@ -25,9 +25,10 @@ Pod::Spec.new do |s|
 
   s.source_files = 'CnKanni/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'CnKanni' => ['CnKanni/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'CnKanni' => ['CnKanni/Assets/**/*']
+    # 'CnKanni' => ['CnKanni/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
