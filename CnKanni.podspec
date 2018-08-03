@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CnKanni'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Everything is go go go.'
   s.description      = <<-DESC
                     Get more information from CC.
@@ -24,7 +24,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CnKanni/Classes/**/*'
-  
   s.resource_bundles = {
     'CnKanni' => ['CnKanni/Assets/**/*']
     # 'CnKanni' => ['CnKanni/Assets/*.png']
